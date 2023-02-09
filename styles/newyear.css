@@ -15,9 +15,20 @@
   color: #005fac;
   background-color: #ffffff;
 }
+
+.btn-white:hover {
+  background-color: #fd6e0a;
+  color: #ffffff;
+  cursor: pointer;
+}
 .btn-blue {
   color: #ffffff;
   background-color: #005fac;
+}
+.btn-blue:hover {
+  color: #005fac;
+  background-color: #ffffff;
+  cursor: pointer;
 }
 .text-center {
   text-align: center;
@@ -37,6 +48,30 @@ main {
   max-width: 1072px;
   margin: auto;
 }
+/* Navigation Section  */
+.navbar-nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: right;
+  margin-right: 30px;
+  padding-top: 20px;
+}
+.nav-item {
+  list-style: none;
+  font-size: 24px;
+  font-weight: 700;
+}
+.nav-link {
+  text-decoration: none;
+  color: #caccce;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+.nav-item :hover {
+  background-color: #fd6e0a;
+  color: #fff;
+}
 /* Header Section  */
 header {
   background-image: url("../assets/images/banner/banner3.png");
@@ -44,7 +79,6 @@ header {
   height: 100%;
   background-position: center;
   background-size: cover;
-  padding: 50px 100px;
 }
 .header-content {
   display: flex;
@@ -52,7 +86,7 @@ header {
   align-items: end;
   justify-content: center;
   text-align: end;
-  padding: 40px;
+  padding: 80px 100px;
 }
 .header-title {
   font-weight: 700;
@@ -109,7 +143,7 @@ header {
   background-size: cover;
   background-position: center;
   border-radius: 50px;
-  background-blend-mode: color-dodge;
+  background-blend-mode: overlay;
   margin-bottom: 130px;
 }
 .plans {
@@ -141,11 +175,11 @@ header {
   width: 75%;
   margin: auto;
   background-image: linear-gradient(
-      to right,
-      rgba(0, 95, 172, 0.2),
-      rgba(71, 57, 50, 0.3)
+      to left,
+      rgba(51, 158, 101, 0.2),
+      rgba(0, 95, 172, 0.7)
     ),
-    url(../assets/images/BG/gradient1.png), url(../assets/images/BG/watch.png);
+    url(../assets/images/BG/watch.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -198,8 +232,9 @@ footer {
 .subscribe form input[type="email"] {
   padding: 15px;
   margin: 30px 0px 16px;
-  background: none;
+  background: transparent;
   border: 1px solid wheat;
+  color: white;
 }
 .subscribe-btn {
   width: 200px;
