@@ -2,3 +2,49 @@
   margin: 0;
   padding: 0;
 }
+/* Common Styles */
+.btn {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #005fac;
+  padding: 18px 35px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-white {
+  background-color: #ffffff;
+}
+/* Header Section  */
+header {
+  background-image: url("../assets/images/banner/banner3.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 100px;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  text-align: end;
+  padding: 40px;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  color: #ffffff;
+}
+.header-description {
+  width: 400px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  color: #ffffff;
+  margin: 24px 0px 32px;
+}
