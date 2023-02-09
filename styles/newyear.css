@@ -15,8 +15,18 @@
 .btn-white {
   background-color: #ffffff;
 }
+.text-center {
+  text-align: center;
+}
 section {
   margin-top: 130px;
+}
+.section-title,
+.failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
 }
 main {
   max-width: 1072px;
@@ -62,17 +72,12 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 87px;
-  padding: 0px 130px;
+  padding: 20px 130px;
 }
 .left-section img {
   height: 500px;
 }
-.failure-title {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 47px;
-  color: #151414;
-}
+
 .failure-description {
   margin: 24px 0px 16px;
 }
@@ -90,4 +95,31 @@ header {
   width: 14px;
   height: 14px;
   margin-right: 5px;
+}
+/* Plans Section  */
+#plans-section {
+  padding: 20px 130px 80px;
+}
+.plans {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin-top: 50px;
+}
+.list-plan img {
+  width: 72px;
+  height: 72px;
+}
+.list-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 35px;
+  color: #151414;
+}
+.list-description {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
 }
