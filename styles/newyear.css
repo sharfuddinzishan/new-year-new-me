@@ -27,6 +27,7 @@ section {
   font-size: 40px;
   line-height: 47px;
   color: #151414;
+  margin-top: 20px;
 }
 main {
   max-width: 1072px;
@@ -72,12 +73,11 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 87px;
-  padding: 20px 130px;
+  padding: 0px 130px;
 }
 .left-section img {
   height: 500px;
 }
-
 .failure-description {
   margin: 24px 0px 16px;
 }
@@ -99,6 +99,12 @@ header {
 /* Plans Section  */
 #plans-section {
   padding: 20px 130px 80px;
+  background-image: url("../assets/images/BG/gradient2.png"),
+    url("../assets/images/BG/header_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
 }
 .plans {
   display: flex;
