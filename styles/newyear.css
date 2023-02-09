@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
 }
-/* Common Styles */
+
+/***********************************************************
+ ****************** Common Styles***************************
+ ***********************************************************/
 .btn {
   font-weight: 700;
   font-size: 20px;
@@ -48,7 +51,10 @@ main {
   max-width: 1072px;
   margin: auto;
 }
-/* Navigation Section  */
+
+/***********************************************************
+ ****************** Navigation Styles***************************
+ ***********************************************************/
 .navbar-nav {
   display: flex;
   gap: 30px;
@@ -72,7 +78,10 @@ main {
   background-color: #fd6e0a;
   color: #fff;
 }
-/* Header Section  */
+
+/***********************************************************
+ ****************** Header Styles***************************
+ ***********************************************************/
 header {
   background-image: url("../assets/images/banner/banner3.png");
   background-repeat: no-repeat;
@@ -105,7 +114,9 @@ header {
   margin: 24px 0px 32px;
 }
 
-/* Failure Section  */
+/***********************************************************
+ ****************** Failure Styles***************************
+ ***********************************************************/
 #failure-setion {
   display: flex;
   align-items: center;
@@ -113,7 +124,7 @@ header {
   gap: 87px;
   padding: 0px 130px;
 }
-.left-section img {
+.person-failure-img {
   height: 500px;
 }
 .failure-description {
@@ -134,7 +145,10 @@ header {
   height: 14px;
   margin-right: 5px;
 }
-/* Plans Section  */
+
+/***********************************************************
+ ****************** Plans Styles***************************
+ ***********************************************************/
 #plans-section {
   padding: 25px 130px 90px;
   background-image: url("../assets/images/BG/gradient2.png"),
@@ -169,7 +183,10 @@ header {
   text-align: center;
   color: #737272;
 }
-/* Course Section  */
+
+/***********************************************************
+ ****************** Course Styles***************************
+ ***********************************************************/
 #course-section {
   padding: 25px 130px 85px;
   background-image: url("../assets/images/BG/gradient2.png"),
@@ -228,7 +245,10 @@ header {
   padding: 5px 10px;
   border-radius: 10px;
 }
-/* Call Now Section  */
+
+/***********************************************************
+ ****************** Call Now Styles***************************
+ ***********************************************************/
 .call-now-container {
   padding: 40px 0px 60px 50px;
   width: 75%;
@@ -250,11 +270,14 @@ header {
 .call-now-container button {
   margin-top: 30px;
 }
-.footer-container .section-title,
-#call-now-section .section-title {
+#call-now-section .section-title,
+.footer-container .section-title {
   color: #ffffff;
 }
-/* Footer Section  */
+
+/***********************************************************
+ ****************** Footer Styles***************************
+ ***********************************************************/
 footer {
   background-color: #151414;
   color: #ffffff;
