@@ -15,6 +15,13 @@
 .btn-white {
   background-color: #ffffff;
 }
+section {
+  margin-top: 130px;
+}
+main {
+  max-width: 1072px;
+  margin: auto;
+}
 /* Header Section  */
 header {
   background-image: url("../assets/images/banner/banner3.png");
@@ -47,4 +54,40 @@ header {
   text-align: right;
   color: #ffffff;
   margin: 24px 0px 32px;
+}
+
+/* Failure Section  */
+#failure-setion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 87px;
+  padding: 0px 130px;
+}
+.left-section img {
+  height: 500px;
+}
+.failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
+.failure-description {
+  margin: 24px 0px 16px;
+}
+.failure-description,
+.list-group-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+.list-group {
+  list-style: none;
+}
+.list-group-item img {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
 }
